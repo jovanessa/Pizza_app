@@ -1,0 +1,15 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px; 
+  }
+  
+  .socialMedia {
+    margin-bottom: 20px; 
+  }
+  
+  .socialMedia svg {
+    font-size: 2rem; 
+    margin: 0 5px; 
+  }
+  

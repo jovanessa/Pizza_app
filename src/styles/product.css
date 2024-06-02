@@ -1,0 +1,101 @@
+.cart-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.empty-cart {
+  text-align: center;
+}
+
+.empty-cart img {
+  width: 200px;
+}
+
+.empty-cart button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #b9b8b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.empty-cart button:hover {
+  background-color: #9d9d9d;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto 0;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+table thead th {
+  background-color: #4f4040;
+  color: #fff;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.cart-summary h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cart-summary .total {
+  color: red;
+  font-weight: bold;
+}
+
+.cart-summary button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #a3a3a3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-summary button:hover {
+  background-color: #929191;
+}
+
+
+.delete-button {
+  padding: 5px 10px; 
+  font-size: 14px; 
+  border-radius: 5px;
+  background-color: #635656; 
+  color: rgb(212, 61, 61); 
+  border: none; 
+  cursor: pointer; 
+}

@@ -1,0 +1,59 @@
+.auth-container {
+    width: 300px;
+    margin: 0 auto; 
+    margin-top: 50px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; 
+    background-image: url('../assets/pizza_login.png'); 
+    background-size: cover; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    
+  }
+  
+  .auth-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .auth-form {
+    width: 100%; 
+  }
+  
+  .auth-form input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .auth-form button {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-top: 10px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #e4a34e;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-form button:hover {
+    background-color: #e4aa5e;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  

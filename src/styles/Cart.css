@@ -1,0 +1,65 @@
+/* Container */
+.order-list-container {
+  margin-top: 20px;
+}
+
+/* Heading */
+.order-list-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* List */
+.order-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Item */
+.order-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.order-image {
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+  margin-right: 20px;
+}
+
+
+.order-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.order-item-description {
+  margin-top: 5px;
+  color: #666;
+}
+
+
+.order-item-toppings {
+  margin-top: 5px;
+  color: #666;
+}
+
+
+.order-item-quantity {
+  margin-top: 5px;
+  color: #333;
+}
+
+
+.order-item-price {
+  margin-top: 5px;
+  color: #333;
+  font-weight: bold;
+}
